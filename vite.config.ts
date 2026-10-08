@@ -4,6 +4,7 @@ import { fileURLToPath, URL } from 'node:url';
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/rell-tub1/',
   plugins: [react()],
   resolve: {
     alias: {
